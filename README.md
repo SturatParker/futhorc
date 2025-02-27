@@ -1,57 +1,59 @@
-<header>
+# Futhorc
 
-<!--
-  <<< Author notes: Course header >>>
-  Include a 1280×640 image, course title in sentence case, and a concise description in emphasis.
-  In your repository settings: enable template repository, add your 1280×640 social image, auto delete head branches.
-  Add your open source license, GitHub uses MIT license.
--->
+This project was generated using [Angular CLI](https://github.com/angular/angular-cli) version 19.1.8.
 
-# GitHub Pages
+## Development server
 
-_Create a site or blog from your GitHub repositories with GitHub Pages._
+To start a local development server, run:
 
-</header>
+```bash
+ng serve
+```
 
-<!--
-  <<< Author notes: Finish >>>
-  Review what we learned, ask for feedback, provide next steps.
--->
+Once the server is running, open your browser and navigate to `http://localhost:4200/`. The application will automatically reload whenever you modify any of the source files.
 
-## Finish
+## Code scaffolding
 
-_Congratulations friend, you've completed this course!_
+Angular CLI includes powerful code scaffolding tools. To generate a new component, run:
 
-<img src=https://octodex.github.com/images/constructocat2.jpg alt=celebrate width=300 align=right>
+```bash
+ng generate component component-name
+```
 
-Your blog is now live and has been deployed!
+For a complete list of available schematics (such as `components`, `directives`, or `pipes`), run:
 
-Here's a recap of all the tasks you've accomplished in your repository:
+```bash
+ng generate --help
+```
 
-- You enabled GitHub Pages.
-- You selected a theme using the config file.
-- You learned about proper directory format and file naming conventions in Jekyll.
-- You created your first blog post with Jekyll!
+## Building
 
-### What's next?
+To build the project run:
 
-- Keep working on your GitHub Pages site... we love seeing what you come up with!
-- We'd love to hear what you thought of this course [in our discussion board](https://github.com/orgs/skills/discussions/categories/github-pages).
-- [Take another GitHub Skills course](https://github.com/skills).
-- [Read the GitHub Getting Started docs](https://docs.github.com/en/get-started).
-- To find projects to contribute to, check out [GitHub Explore](https://github.com/explore).
+```bash
+ng build
+```
 
-<footer>
+This will compile your project and store the build artifacts in the `dist/` directory. By default, the production build optimizes your application for performance and speed.
 
-<!--
-  <<< Author notes: Footer >>>
-  Add a link to get support, GitHub status page, code of conduct, license link.
--->
+## Running unit tests
 
----
+To execute unit tests with the [Karma](https://karma-runner.github.io) test runner, use the following command:
 
-Get help: [Post in our discussion board](https://github.com/orgs/skills/discussions/categories/github-pages) &bull; [Review the GitHub status page](https://www.githubstatus.com/)
+```bash
+ng test
+```
 
-&copy; 2023 GitHub &bull; [Code of Conduct](https://www.contributor-covenant.org/version/2/1/code_of_conduct/code_of_conduct.md) &bull; [MIT License](https://gh.io/mit)
+## Running end-to-end tests
 
-</footer>
+For end-to-end (e2e) testing, run:
+
+```bash
+ng e2e
+```
+
+Angular CLI does not come with an end-to-end testing framework by default. You can choose one that suits your needs.
+
+## Additional Resources
+
+For more information on using the Angular CLI, including detailed command references, visit the [Angular CLI Overview and Command Reference](https://angular.dev/tools/cli) page.
