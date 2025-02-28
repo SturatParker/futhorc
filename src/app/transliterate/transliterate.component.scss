@@ -1,0 +1,16 @@
+textarea {
+  width: 100%;
+  height: 20em; /* Adjusts height for ~10 lines */
+  //   padding: 0.5rem;
+  font-size: 1.5rem;
+  resize: none; /* Allows resizing if needed */
+  border: 1px solid #ccc;
+  border-radius: 2rem;
+  //   background-color: #fff;
+  color: #333;
+  outline: none;
+  transition: border-color 0.2s ease-in-out;
+  box-sizing: border-box;
+
+  padding: 1rem;
+}
